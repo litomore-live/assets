@@ -1,0 +1,18 @@
+Generated with the built-in image_gen tool.
+Reference: characters/pixel-streamer/source.png
+Cover: covers/repository/assets.png
+README export: covers/repository/assets.webp
+
+Use case: identity-preserve
+Asset type: finished repository README cover for "litomore-live/assets".
+Input image 1: character identity reference. Use this SAME friendly adult anime woman, preserving the exact recognizable purple twin-tail hair with pink highlights, violet eyes, happy open smile, pink cat-icon headphones, pink cross hair clip, mint clips, dark choker with pink heart, lavender oversized sweater with white game controller motif, and cheek-resting pose.
+Primary request: beautiful e-girl dopamine-color pixel-art cover for a repository of digital artwork and visual assets. The repository's title is "assets". This is an assets collection cover, not a livestream announcement.
+Canvas: wide landscape, approximately 2:1 aspect ratio, intended 1600 × 800. Full-bleed finished artwork with opaque background.
+Composition: left half has a huge clean lowercase pixel title "assets"; directly above it, small widely spaced pixel type reads "LITOMORE LIVE". The right half shows the same large upper-body character, with all of her face and headphone silhouette visible. In the lower left, a compact mint-and-pink pixel folder holding a small landscape image card and a tiny color swatch strip suggests an art asset collection. Add only a few restrained pixel hearts, four-point stars, and a small square cursor to balance the composition. Clear typography, generous negative space, all important text inside 75px safe margins. Keep the face unobstructed.
+Art direction: authentic crisp Japanese 16/32-bit videogame pixel anime, square pixel clusters, stepped dark purple outlines, flat limited-color shading, chunky offset pixel shadows. Light airy graphic poster with bold focal points, readable in a small GitHub README preview.
+Palette: warm nearly-white #fff8ff background with a very subtle lavender grid, hot pink #ff5bbd, violet #7745f5, deep ink #28163e, mint #a0f6e5, tiny butter-yellow sparkle accents.
+Text (verbatim, no other text):
+"LITOMORE LIVE"
+"assets"
+Make "assets" unmistakably lowercase, thick deep-purple lettering with a hot-pink stepped drop shadow.
+Constraints: preserve the original character identity and outfit. No "开源项目维护", no Chinese text, no LIVE status badge, no code-maintenance messaging, no voice or audio player, no waveforms, no URL, no extra slogans, no watermark. No smooth 3D, no photorealism. Remove stray edge pixels from the reference silhouette.

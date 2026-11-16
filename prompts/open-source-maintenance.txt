@@ -1,0 +1,39 @@
+Final selected cover prompt set — built-in imagegen.
+Primary character reference: characters/pixel-streamer/source.png
+Exports: covers/live/open-source-maintenance-4x3.png / .jpg (2048 × 1536), open-source-maintenance-16x9.png / .jpg (1920 × 1080).
+Export method: proportional point scaling of the generated 4:3 image; center crop x=64, y=228, width=1920, height=1080. No forced-aspect resize. JPG quality 95, 4:4:4 sampling.
+The tool prompts below record the actual generation requests; export dimensions above are the final delivered sizes.
+
+Character restoration and denser layout:
+Use case: compositing
+Asset type: replacement livestream cover, 4:3 master with a center-croppable 16:9 layout.
+Input image 1: FIXED CHARACTER INSERT AND PROPORTION AUTHORITY. This is the original transparent pixel anime character. Its face, skull shape, eye placement, jaw length, neck, torso, folded arms, sleeves, pose and hair geometry define the intended character. Preserve the ORIGINAL proportions from this image, as if placing this exact cutout into a new poster using a single uniform scale. Do not reinterpret or redraw her as a shorter/squatter/cuter chibi character.
+Input image 2: EXISTING COVER TO REPLACE. Use it for the title, palette, type style, software-maintenance theme and general layout only. DO NOT use its character as the anatomy/proportion reference: that later redraw has an overly vertically compressed face and torso and is the problem to correct.
+Primary changes: (1) restore the character from image 1 with her original natural proportions, (2) enlarge and densify the decorative design in the top/bottom parts of the 4:3 frame.
+Canvas: strictly 4:3, intended 1920×1440. One single complete finished poster. Exact centered 16:9 crop is x=0..1920, y=180..1260.
+Character: place the original transparent character as a faithful raster-like insert on the right, uniformly scaled to fit approximately a 920×920 square region around x=950..1870, y=240..1160. Preserve the complete character silhouette from image 1; do not stretch to a different-shaped box. In particular preserve the original long oval face, forehead-to-chin distance, almond eyes, small pointed chin, jaw/neck relationship, natural neck-to-shoulder length, and original torso and sleeve lengths. Do not squeeze vertically, widen the head, shorten the torso or enlarge the head relative to the body. Keep her original hand on cheek, violet eyes, cheerful mouth, purple hair, pink cat-icon headphones, hair clips, heart choker and lavender sweater.
+Central essential content: keep LIVE badge, title, complete character head/face/headphones and main code-window illustration inside y=230..1200, and comfortably away from side edges. Left has the mint LIVE badge, large Chinese heading split into "开源项目" and "维护" (white on hot-pink stepped highlight), and a compact code window with abstract colored code bars and a branch/merge icon below it. Correct Chinese strokes, no extra words.
+Fuller decorative treatment:
+- TOP 0..170px: a visually substantial, tightly arranged developer-tool collage across most of the width, not a thin row of tiny icons. Use larger overlapping pixel folder/code-card/window shapes on the left, a wide miniature terminal panel in the center, chunky braces and angle brackets in mint/pink outlined tiles on the right; connect them with denser checker snippets, pixel hearts, sparkles and stepped trails. The main objects should be about 120–150px tall and form coherent groups with small gaps.
+- BOTTOM 1270..1440px: a large pixel gamepad group at left, a much wider pink/mint mechanical keyboard in the middle, overlapping small document/terminal cards and branch-node graphics on the right. Increase object scale and density so this region looks designed and filled, not sparse. Add short checkered strips and small stars in remaining gaps.
+- Fill the unused background between those border collages and the central poster with a few larger low-contrast stepped stars, abstract pixel brackets and short mint/pink grid/checker bands. No broad vacant gutters. Keep this secondary background quiet enough that the title and original character remain the focal points.
+Large top/bottom objects must be entirely OUTSIDE the center-crop boundaries y=180 and y=1260, so the 16:9 export does not show half a keyboard or chopped-off window. Only small abstract background fragments may cross those crop edges.
+Style: crisp 16/32-bit Japanese videogame pixel art, stepped dark outlines, square pixels, hard offset shadows, same original e-girl dopamine palette. Near-white #fff8ff grid background, hot pink #ff5bbd, vivid purple #7745f5, deep ink #28163e, mint #a0f6e5, tiny yellow accents.
+Text allowed ONLY: LIVE, 开源项目, 维护. No extra labels, website branding, audio/speech theme, URLs, watermarks, safe-zone guides, split-screen or mockup.
+Highest priority: preserve the original character insert's anatomy and aspect ratio from image 1. If more room is needed, shrink the WHOLE original insert uniformly rather than compressing any part of her body.
+
+Final crop-boundary refinement:
+Use case: precise-object-edit
+Input image 1: EDIT TARGET, the new livestream poster with restored original character proportions and larger, denser decoration.
+Input image 2: fixed original character proportion reference. Preserve this identity and natural face/body proportions exactly.
+Make ONLY this crop-boundary refinement. Keep the improved central character, her face shape, jaw length, torso length, pose, sleeves, title, LIVE badge, and central code window unchanged.
+The actual input canvas is 1448×1086, ratio 4:3. Its centered 16:9 crop occupies approximately y=136..950. Use THESE input-image pixel coordinates (not 1920px coordinates):
+1. Fit all large UPPER decorative objects entirely into y=6..118. Remove their currently overhanging lower edges from y=136..170 and reconstruct the pale grid there. Leave y=120..136 clear of large objects.
+2. Fit all large LOWER decorative objects entirely into y=969..1078. Remove their currently overhanging upper edges from y=918..950 and reconstruct the pale grid there. Leave y=950..968 clear of large objects.
+3. Do not change anything else inside y=170..918. In particular the restored character MUST NOT be regenerated into the previous vertically compressed/chibi version.
+Maintain the newly richer visual density across the full width: arrange MORE overlapping small pixel windows, folders, code tiles and cards to fill horizontal gaps, instead of making a sparse row of tiny icons. Keep a broad, detailed 3-row pixel keyboard about 450px wide and 100px tall in the bottom center, a substantial controller cluster on its left and several overlapping document cards on its right. Use denser mint/pink checker fragments and pixel trails in leftover gaps.
+Top decorative row should use several closely packed, overlapping developer-window/folder/code-tile clusters across almost the entire width, each up to 110px tall. All scaling of any illustrated item must preserve its shape; do not squash the character or the entire poster.
+The top and bottom decoration should still feel much bigger and denser than the earlier sparse ornament design, while fitting fully OUTSIDE the central crop. Do not let the crop leave half a terminal or keyboard at an edge. Small abstract checker fragments may cross the boundaries, but no large recognizable object may do so.
+Keep the same crisp pixel art, pink/purple/mint palette and pale grid, correct Chinese "开源项目" and "维护", and "LIVE". No new words, no guides, no watermarks.
+Output one complete 4:3 poster, same composition, natural original character proportions.
+
