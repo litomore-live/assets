@@ -1,18 +1,21 @@
-Generated with the built-in image_gen tool.
-Reference: characters/pixel-streamer/source.png
-Cover: covers/repository/assets.png
-README export: covers/repository/assets.webp
+Edited with the built-in image_gen tool.
+Primary reference: characters/pixel-streamer/source.png
+Final cover: covers/repository/assets.png
+Lossless README export: covers/repository/assets.webp
+No resizing or stretching after generation.
 
-Use case: identity-preserve
-Asset type: finished repository README cover for "litomore-live/assets".
-Input image 1: character identity reference. Use this SAME friendly adult anime woman, preserving the exact recognizable purple twin-tail hair with pink highlights, violet eyes, happy open smile, pink cat-icon headphones, pink cross hair clip, mint clips, dark choker with pink heart, lavender oversized sweater with white game controller motif, and cheek-resting pose.
-Primary request: beautiful e-girl dopamine-color pixel-art cover for a repository of digital artwork and visual assets. The repository's title is "assets". This is an assets collection cover, not a livestream announcement.
-Canvas: wide landscape, approximately 2:1 aspect ratio, intended 1600 × 800. Full-bleed finished artwork with opaque background.
-Composition: left half has a huge clean lowercase pixel title "assets"; directly above it, small widely spaced pixel type reads "LITOMORE LIVE". The right half shows the same large upper-body character, with all of her face and headphone silhouette visible. In the lower left, a compact mint-and-pink pixel folder holding a small landscape image card and a tiny color swatch strip suggests an art asset collection. Add only a few restrained pixel hearts, four-point stars, and a small square cursor to balance the composition. Clear typography, generous negative space, all important text inside 75px safe margins. Keep the face unobstructed.
-Art direction: authentic crisp Japanese 16/32-bit videogame pixel anime, square pixel clusters, stepped dark purple outlines, flat limited-color shading, chunky offset pixel shadows. Light airy graphic poster with bold focal points, readable in a small GitHub README preview.
-Palette: warm nearly-white #fff8ff background with a very subtle lavender grid, hot pink #ff5bbd, violet #7745f5, deep ink #28163e, mint #a0f6e5, tiny butter-yellow sparkle accents.
-Text (verbatim, no other text):
-"LITOMORE LIVE"
-"assets"
-Make "assets" unmistakably lowercase, thick deep-purple lettering with a hot-pink stepped drop shadow.
-Constraints: preserve the original character identity and outfit. No "开源项目维护", no Chinese text, no LIVE status badge, no code-maintenance messaging, no voice or audio player, no waveforms, no URL, no extra slogans, no watermark. No smooth 3D, no photorealism. Remove stray edge pixels from the reference silhouette.
+Use case: style-transfer
+Asset type: corrected repository cover for litomore-live/assets.
+Input image 1: CHARACTER AND PIXEL-TEXTURE AUTHORITY. The original transparent character. Preserve her recognizable exact identity, original oval face and jaw length, head/body proportions, purple twin tails, pink cat-icon headphones, pink cross and mint hair clips, cheerful smile, hand-on-cheek pose, heart choker and lavender controller-motif sweater. Its crisp visibly square pixel clusters and stepped outlines are the required character rendering style.
+Input image 2: EDIT TARGET. The current assets repository cover. Keep the whole composition, title, brand, palette, folder illustration, hearts/stars/cursor and pale grid. Correct the rendering of the woman only: she currently looks too smooth, like ordinary anime line art, and has lost the original character's visible pixel-art texture.
+Primary request: restore authentic square-pixel videogame rendering to the woman, while keeping her natural anatomy and original character proportions. Do NOT turn her into a chibi or compress her vertically.
+Character rendering requirements:
+- Clearly visible 3–5 pixel square clusters at the final ~1774px image width; coherent coarse pixel grid like a carefully hand-pixelled 16/32-bit videogame portrait.
+- Stepped/staircase dark-purple contours on hair, face, headphones, sweater and hands; no smooth anti-aliased vector-like curves.
+- Hard-edged limited-palette cel shading and small pixel-cluster highlights; no soft gradients, airbrush or smooth skin shading.
+- Eyes, mouth, hair strands and sweater folds are made of deliberate angular pixel clusters. Preserve the original expressive adult anime face rather than simplifying its anatomy.
+- Maintain original face height, jaw, neck-to-shoulder relationship, torso and sleeve lengths from image 1. Only uniform overall scaling is allowed.
+Composition invariant: wide 2:1 landscape cover, target 1774×887. Left has very large lowercase "assets" in thick deep-purple pixel type with hot-pink stepped shadow; above it small spaced "LITOMORE LIVE". Right is the same original woman, upper body, facing inward; face and headphones unobstructed. Lower left mint pixel folder with landscape card and color swatches, a few pixel hearts/stars and a cursor. Keep positions and hierarchy as close as possible to image 2. Do not add new objects or change the text.
+Color palette: warm #fff8ff background with pale lavender grid, hot pink #ff5bbd, purple #7745f5, dark ink #28163e, mint #a0f6e5 and tiny yellow accents.
+Text exactly: "LITOMORE LIVE", "assets". No other writing, no Chinese, no livestream label, no speech/audio theme, no watermark.
+Highest priorities: visible authentic pixel art in the CHARACTER, original character identity/anatomy/proportions, and preservation of the existing repository-cover composition.
